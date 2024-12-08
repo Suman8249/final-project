@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Invitation</title>
+    <link rel="stylesheet" href="STYLES.CSS">
+</head>
+<body>
+    <div class="invitation">
+        <IMg src="123.avif" alt="image not found"></IMg>
+        <h1 class="title">YOU ARE INVITED</h1>
+        <p class="subtitle">To a Special Birthday Celebration</p>
+
+        <div class="event-details">
+            <p><strong>Event:</strong> Birthday Party</p>
+            <p><strong>Date:</strong> December 20, 2024</p>
+            <p><strong>Time:</strong> 5:00 PM</p>
+            <p><strong>Venue:</strong> 123 Party Avenue, Cityville , Madhya Pradesh</p>
+            <p><a href="birthday video.mp4" target="_blank"> "Birthday boy"</a></p>
+        </div>
+
+        <p class="message">Let's have fun with cake, music, and great company!</p>
+         <footer>
+            <p>      <form action="submit_rsvp.php" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name"><br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email address"><br>
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" required placeholder="Enter your mobile number" pattern="[0-9]{10}" maxlength="10"><br>
+                
+                <button type="submit" style="color: blue;">Submit</button>
+            </form></p>
+
+        </footer>
+            
+    </div>
+</body>
+</html>
